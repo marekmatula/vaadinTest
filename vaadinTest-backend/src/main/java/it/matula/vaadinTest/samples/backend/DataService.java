@@ -1,5 +1,6 @@
 package it.matula.vaadinTest.samples.backend;
 
+import java.io.Serializable;
 import java.util.Collection;
 
 import it.matula.vaadinTest.samples.backend.data.Category;
@@ -9,7 +10,7 @@ import it.matula.vaadinTest.samples.backend.mock.MockDataService;
 /**
  * Back-end service interface for retrieving and updating product data.
  */
-public abstract class DataService {
+public abstract class DataService implements Serializable {
 
     public abstract Collection<Product> getAllProducts();
 

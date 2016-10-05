@@ -1,9 +1,11 @@
 package it.matula.vaadinTest.samples.authentication;
 
+import java.io.Serializable;
+
 /**
  * Simple interface for authentication and authorization checks.
  */
-public interface AccessControl {
+public interface AccessControl extends Serializable {
 
     public boolean signIn(String username, String password);
 
