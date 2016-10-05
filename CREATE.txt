@@ -1,0 +1,8 @@
+New Maven project
+
+archetype: vaadin-archetype-application-example
+
+group id: it.matula
+artifact Id: vaadinTest
+
+
